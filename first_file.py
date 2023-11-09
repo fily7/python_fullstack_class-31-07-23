@@ -1,3 +1,3 @@
 # my first code
-print("Hello, World!")
+print("Hello, dogs!")
 # => Hello World
