@@ -4,12 +4,11 @@ masha = "Маша"
 pasha = "Паша"
 
 
-even_days = (sveta, oleg)
-odd_days = (masha, pasha)
+workers = [sveta, masha, oleg, pasha]
 
 print(
-    "В четные дни работают: " + " ".join(even_days),
+    "В четные дни работают: " + " ".join(workers[::2]),
     "",
-    "В нечетные дни работают: " + " ".join(odd_days),
+    "В нечетные дни работают: " + " ".join(workers[1::2]),
     sep="\n",
 )
